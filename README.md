@@ -12,10 +12,11 @@ optimizer = AdaBound(lr=0.001, final_lr=0.1)
 ## TODO
  - Still to come:
  * [x] Keras version
- * [ ] TensorFlow version
+ * [x] TensorFlow version
  * [ ] Add test demo
  
  ## References
  - Luo, et al. [Adaptive Gradient Methods with Dynamic Bound of Learning Rate](https://openreview.net/forum?id=Bkg3g2R9FX). In Proc. of ICLR 2019.
  - [Original Implementation (PyTorch)](https://github.com/Luolc/AdaBound)
  - [keras.optimizers](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/keras/optimizers.py)
+ - [tensorflow.adam](https://github.com/tensorflow/tensorflow/blob/r1.12/tensorflow/python/training/adam.py)
