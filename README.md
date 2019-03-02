@@ -3,7 +3,7 @@ A tensorflow and keras implementation of [AdaBound](https://openreview.net/forum
 
 ## Usage
 First add the adabound-tensorflow/keras to your project.<br>
-* Keras
+- Keras
 ```python
 from adabound_keras.adabound import AdaBound
 optimizer = AdaBound(lr=0.001, final_lr=0.1)
